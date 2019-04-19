@@ -1,0 +1,5 @@
+welcome: Welcome to Alexa Skill. Would you like to hear a joke ?
+
+fun: joke,  {{joke}}
+
+no_response: waiting to server you again later.
