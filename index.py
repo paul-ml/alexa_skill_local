@@ -11,7 +11,6 @@ logging.getLogger("flask_ask").setLevel(logging.DEBUG)
 
 @ask.launch
 def launch():
-  print("I came here")
   welcome_msg = render_template('welcome')
   return question(welcome_msg)
 
@@ -23,7 +22,6 @@ def positive_response():
 	"Why is Peter Pan flying all the time? He Neverlands!"
 	]
   joke = random.choice(jokes)
-  print("joke is.................. " + joke)
   joke_template = render_template('fun', joke=joke)
   return statement(joke_template)
 
