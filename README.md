@@ -2,6 +2,13 @@
 *  server is running on local machine
 *  so whenever ngrok connection is restarted, endpoint has to be changed in amazon developer console
 *  Alternate for ngrok ? go for  aws lamba function creation. 
+
+## Expected Output: (Example)
+`User invocation`: listen to me <br>
+`Alexa speaks`: Welcome to Alexa Skill. Would you like to hear a joke?<br>
+`User`: Yes/No <br>
+`Alexa`: speaks joke if Yes<br>
+
 ## requirements
 > Flask 
 - Flask is a micro web framework written in Python
