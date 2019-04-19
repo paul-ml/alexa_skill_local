@@ -17,9 +17,7 @@ pip install flask_ask
 - Is a `command-line program` that opens a secure tunnel to localhost and exposes that tunnel behind the HTTPS
 - `steps`
     - please `follow step 1 to step 3` from following link:
-    ```
-    [a link](https://ngrok.com/download)
-    ```
+      https://ngrok.com/download
     - fire ngrok up
     ```
     ./ngrok http 5000 
