@@ -20,7 +20,6 @@ pip install flask
 ```
 pip install flask_ask
 ```
-
 > ngrok
 - Is a `command-line program` that opens a secure tunnel to localhost and exposes that tunnel behind the HTTPS
 - `steps`
@@ -40,6 +39,12 @@ python index.py
 ```
 * now python script running in localhost can be accessed by using the https link obtained from ngrok
 
+## Install Flask-Ask dependencies
+- Created a virtualenv for python3.6.5 and activate venv
+  - `virtualenv -p python3.6 venv`
+  - `source bin/activate`
+- Install the dependecies in venv
+  - `pip install aniso8601==1.2.0 Flask==0.12.1 cryptography==2.1.4 pyOpenSSL==17.0.0 PyYAML==3.12 six==1.11.0` 
 ## What next ?
 - Lets create a new skill in amazon developer console
 
